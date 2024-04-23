@@ -1,0 +1,11 @@
+1. The code is written in C and parallelized using MPI. 
+2. This is a 2D code and simulates the annular region between two rotating circles.
+3. This code is capable of handling various non-eqiulibrium statistical mechanics problems.
+4. At present, I have demonstrated rotational KH instability using this 2D rotational MPMD code.
+5. The "initial profile generator" folder  is used to generate the initial profile. In this forlder, the "perturbation_adder.c" code genrtaes the intial profile. The "grid-2D-parallel2_rot.c" code used to check whether the perturbation is added properly or not.
+5. The initla profile is names as "STATE". 
+6. For compilation, one need to go to the "source" forlder and load "intel-2018".
+7. With the help of the "make" command, the code is compiled.
+8. An executable calle  "main" is ganerated and using "job.sh" the run is submitted in our Antya Cluster.
+9. The "Vorticity_contour.pdf" file shows the KH instability.
+    
